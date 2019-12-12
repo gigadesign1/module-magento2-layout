@@ -1,0 +1,19 @@
+{
+    "name": "gigadesign/module-magento2-layout",
+    "description": "Collection of layout fixes that can be used in modules",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Mark van der Werf",
+            "email": "info@gigadesign.nl"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Gigadesign\\Layout\\": ""
+        }
+    }
+}
